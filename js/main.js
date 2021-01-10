@@ -1,4 +1,5 @@
-//Aula 01
+//Aula 01 - Introdução ao JavaScript
+
 /*var nome = "Natália Souza";
 var idade = 36;
 var idade2 = 1;
@@ -11,7 +12,8 @@ console.log(frase.replace("Alemanha", "Brasil"));
 alert(frase.replace("Argentina", "Brasil"));
 console.log(frase.toLocaleUpperCase());*/
 
-//Aula02
+//Aula02 - Array e Dicionário
+
 /*var lista = ["maça", "pêra", "laranja"]
 //push adiciona um elemento ao final do array
 lista.push("mamão");
@@ -34,12 +36,43 @@ console.log(lista.reverse());
 console.log(lista.toString());
 
 //colocar espaço e ou traço, barra e etc, no lugar da vírgula
-console.log(lista.join(" - "));*/
+console.log(lista.join(" - "));
 
 /*var fruta = {nome: "maçã", cor: "vermelha"}
 console.log(fruta.nome);
-alert(fruta.cor); */
+alert(fruta.cor); 
 
 var frutas = [{nome: "maça", cor: "vermelha"}, {nome: "uva", cor: "roxa"}]
 console.log(frutas);
-alert(frutas[1].nome);
+alert(frutas[1].nome);*/
+
+//Aula 03 - Condicionais, laços de repetição e Date
+/*
+var idade = prompt("Qual a sua idade? Digite por favor: ");
+if (idade >= 18){
+    alert("Você é maior de idade.");
+}else{
+    alert("Você menor de idade.")
+}
+
+// Laços de repetição
+
+var count = 0;
+while (count <= 5){
+    console.log(count);
+    count++;
+};
+
+//FOR
+
+var count;
+for(count = 0; count <= 5; count++){
+    alert(count);
+};*/
+
+var d = new Date();
+//alert(d);
+alert(d.getDay());
+alert(d.getMinutes());
+alert(d.getHours());
+
