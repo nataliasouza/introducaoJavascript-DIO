@@ -68,11 +68,11 @@ while (count <= 5){
 var count;
 for(count = 0; count <= 5; count++){
     alert(count);
-};*/
+};
 
 var d = new Date();
 //alert(d);
 alert(d.getDay());
 alert(d.getMinutes());
-alert(d.getHours());
+alert(d.getHours());*/
 
